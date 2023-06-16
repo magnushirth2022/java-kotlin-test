@@ -1,0 +1,14 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+group = 'xyz.sweet.myapp'
+
+application {
+    mainClass = 'xyz.sweet.myapp.Main'
+}
+
+dependencies {
+    implementation project(':mylib')
+}

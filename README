@@ -1,0 +1,12 @@
+A trivial example of combining Java and Kotlin in the same project.
+
+A Java application (myapp) which uses a library (mylib) written in
+both Java and Kotlin.
+
+Run unix:
+
+    ./gradlew run
+
+Run windows:
+
+    gradlew.bat run
