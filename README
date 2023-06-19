@@ -10,3 +10,7 @@ Run unix:
 Run windows:
 
     gradlew.bat run
+
+Make docs:
+
+    ./gradlew dokkaHtmlMultiModule

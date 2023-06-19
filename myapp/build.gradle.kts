@@ -1,4 +1,7 @@
+import org.jetbrains.dokka.gradle.DokkaTaskPartial
+
 plugins {
+    kotlin("jvm") // Required for dokka to work
     id("java")
     id("application")
 }

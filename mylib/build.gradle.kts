@@ -1,6 +1,5 @@
 plugins {
-    kotlin("jvm") version "1.8.22"
-    id("java-library")
+    kotlin("jvm") // Required for dokka to work
 }
 
 group = "xyz.sweet.mylib"
